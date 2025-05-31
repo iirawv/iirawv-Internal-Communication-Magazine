@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مجلة التواصل الداخلي - مستشفى الملك خالد بتبوك</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- 📌 صورة ورابط وبيانات المشاركة -->
+<meta property="og:title" content="مجلة التواصل الداخلي - مستشفى الملك خالد بتبوك" />
+<meta property="og:description" content="العدد الأول – أبرز الأنشطة، التهاني، والمبادرات بالتجمع الصحي بتبوك." />
+<meta property="og:image" content="https://iiraww.github.io/Internal-Communication-Magazine/cover-main.png" />
+<meta property="og:url" content="https://iiraww.github.io/Internal-Communication-Magazine/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+  <script src="java.js"></script>
+  <style>
+body {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 400;
+  background: #f7fafd; /* لون هادئ وأنيق */
+  color: #1f2b38;       /* لون النص الافتراضي */
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+    header {
+      background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('المستشفى خلفية 2.png') no-repeat center/cover;
+      color: white;
+      padding: 100px 20px 60px;
+      text-align: center;
+      border-radius: 0 0 30px 30px;
+      position: relative;
+    }
+    header img.logo {
+      width: 100px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    header h1 {
+      font-size: 2.8em;
+ margin-bottom: 60px; /* حتى يكون في فصل بصري مريح بين الأقسام */
+}
+    header p {
+      font-size: 1.2em;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+      color: #1e76bb;
+    }
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .news-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .news-card .content {
+      padding: 20px;
+    }
+    .news-card .content h3 {
+      margin-top: 0;
+      color: #1e76bb;
+      font-size: 1.3em;
+    }
+    .news-card .content p {
+      line-height: 1.8em;
+      color: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #1e76bb;
+      color: white;
+      font-size: 1em;
+      margin-top: 60px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+    footer a {
+      color: #ffd;
+      text-decoration: underline;
+    }
+    .eid-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.eid-name {
+  color: white;
+  margin-top: 15px;
+}
+
+.greeting-btn {
+  margin-top: 10px;
+  background-color: white;
+  color: #325d7d;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.greeting-btn:hover {
+  background-color: #e6f4f9;
+}
+.department-swiper {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+  direction: rtl;
+}
+.swiper-slide {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.swiper-slide:hover {
+  transform: translateY(-5px);
+}
+.swiper-slide img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.swiper-slide h3 {
+  color: #309dcf;
+  font-size: 1.3em;
+  margin: 10px 0;
+}
+.swiper-slide p {
+  font-size: 1.1em;
+  color: #1e2e50;
+  line-height: 2em;
+  padding: 0 10px;
+  text-align: center;
+  font-weight: 500;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e76bb;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.read-more:hover {
+  color: #0e5e99;
+  border-bottom: 2px solid #0e5e99;
+}
+  .news-popup {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup-content {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    position: relative;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #999;
+  }
+  .close-btn {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: white;
+  z-index: 10000;
+}
+.greeting-popup {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh; /* ✅ يقيّد الارتفاع */
+  overflow-y: auto; /* ✅ يسمح بالتمرير */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  position: relative;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #555;
+  z-index: 10000;
+}
+#ideal-departments img:hover {
+  transform: scale(1.05);
+}
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1e76bb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.employee-name {
+  color: #1e76bb;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.leader-card {
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.leader-card:hover {
+  transform: translateY(-8px);
+}
+.eid-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.eid-name {
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+.greeting-btn {
+  margin-top: 10px;
+  background-color: white;
+  color: #1e76bb;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+}
+.greeting-btn:hover {
+  background-color: #e1f1fa;
+}
+
+  </style>
+</head>
+
+<body>
+  
+<header style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(61, 61, 66, 0.75)), url('المستشفى خلفية 2.png') no-repeat center/cover; color: white; padding: 100px 20px 60px; text-align: center; border-radius: 0 0 30px 30px; position: relative; animation: fadeInDown 1s ease;">
+  <img src="logo-removebg-preview.png" alt="شعار المستشفى" class="logo" style="width: 100px; position: absolute; top: 2px; right: 20px;">
+  
+  <h1 style="font-size: 2.8em; margin-bottom: 10px; font-weight: bold;">مجلة التواصل الداخلي</h1>
+  
+  <p style="font-size: 1.3em; font-weight: bold; margin-bottom: 5px;">
+    تجمع تبوك الصحي - مستشفى الملك خالد بتبوك
+  </p>
+  
+  <p style="font-size: 1.1em; margin-top: 5px; color: #ffebc1;">
+    العدد الأول لشهر مايو 2025 
+  </p>
+
+  <a href="mailto:TB-KKH-INC@moh.gov.sa"
+     style="position: absolute; top: 20px; left: 20px; background-color: #ffffff; color: #1e76bb; padding: 10px 20px; border-radius: 25px; font-weight: bold; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: 0.3s ease;">
+    تواصل معنا
+  </a>
+</header>
+
+<style>
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+
+<!-- كلمات خالدة -->
+<section class="section" id="quote-section" style="padding: 40px 20px; max-width: 1000px; margin: 0 auto 40px;" data-aos="fade-up">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; justify-content: center;">
+
+    <!-- الصورة يسار -->
+    <div style="flex: 1 1 250px;" data-aos="zoom-in">
+      <img src="محمد بن سلمان.png" alt="محمد بن سلمان" style="width: 220px; border-radius: 15px; box-shadow: 0 6px 14px rgba(0,0,0,0.1);">
+    </div>
+
+    <!-- النص يمين -->
+    <div style="flex: 2 1 400px;" data-aos="fade-left">
+      <p style="font-size: 1.3em; color: #1e2e50; font-weight: 600; line-height: 1.8em; margin: 0;">
+        "ثروتنا الأولى التي لا تعادلها ثروة مهما بلغت: شعب طموح، معظمه من الشباب، هو فخر بلادنا وضمان مستقبلها بعون الله."
+        <br>
+        <span style="color: #1e76bb; font-weight: bold; font-size: 1em;">– محمد بن سلمان بن عبدالعزيز</span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section intro-section" id="intro" data-aos="fade-up">
+  <h2 class="intro-title" data-aos="fade-up" data-aos-delay="100"> المقدمة</h2>
+
+
+
+  <div class="intro-content-box" data-aos="fade-up" data-aos-delay="300">
+    <p class="intro-paragraph">
+      الحمد لله الذي بنعمته تتم الصالحات، وبتوفيقه تتحقق المنجزات، يسرنا أن نضع بين أيديكم
+      <strong>العدد الأول من مجلة التواصل الداخلي</strong> الشهرية لشهر مايو 2025 التي تهدف إلى إبراز الجهود،
+      والاحتفاء بالمنجزات، وتعزيز روح الانتماء والتقدير بين جميع منسوبي مستشفى الملك خالد بتبوك.
+    </p>
+
+    <p class="intro-paragraph" data-aos="fade-up" data-aos-delay="400">
+      في هذا العدد، نسلط الضوء على أبرز الأخبار، المبادرات، والفعاليات التي عكست جهود الكوادر الطبية والإدارية خلال الفترة الماضية،
+      آملين أن تُسهم في بناء بيئة عمل محفزة تسودها الألفة والاعتزاز.
+    </p>
+  </div>
+</section>
+
+
+<style>
+/* تحسين تصميم القسم */
+/* تحسين تصميم المقدمة */
+.intro-section {
+  background: linear-gradient(to left, #f9fbff, #edf4fa);
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  padding: 60px 40px;
+  margin-top: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.intro-title {
+  color: #1e76bb;
+  font-size: 2.4em;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease forwards;
+  font-weight: bold;
+}
+
+.intro-subtitle {
+  text-align: center;
+  font-size: 1.5em;
+  color: #1e76bb;
+  font-weight: bold;
+  margin-bottom: 35px;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+/* صندوق داخلي */
+.intro-content-box {
+  background: white;
+  border-left: 5px solid #1e76bb;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+  animation: fadeIn 1.6s ease forwards;
+}
+
+.intro-paragraph {
+  font-size: 1.2em;
+  line-height: 2em;
+  color: #333;
+  text-align: justify;
+  margin: 0 0 20px 0;
+}
+
+
+/* حركة الدخول */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style>
+
+<section class="section" id="leaders-messages" style="background: linear-gradient(to bottom, #1e76bb, #104e83); padding: 80px 20px; border-radius: 20px;">
+  <h2 style="text-align: center; color: white; margin-bottom: 50px; font-size: 2.4em;" data-aos="fade-down">كلمة العدد الأول </h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; max-width: 1000px; margin: auto;">
+    
+    <!-- بطاقة القائد -->
+    <div class="leader-card" data-aos="zoom-in">
+      <img src="طارق المدير.jpg" alt="أ. طارق السحلي" class="eid-img">
+      <h3 class="eid-name">أ. طارق السحلي</h3>
+      <button onclick="showMessage('message1')" class="greeting-btn">عرض الكلمة</button>
+    </div>
+
+    <div class="leader-card" data-aos="zoom-in">
+      <img src="محمد بسام.jpg" alt="د. محمد بسام" class="eid-img">
+      <h3 class="eid-name">د. محمد بسام</h3>
+      <button onclick="showMessage('message2')" class="greeting-btn">عرض الكلمة</button>
+    </div>
+
+    <div class="leader-card" data-aos="zoom-in">
+      <img src="مصلح.jpg" alt="أ. مصلح البلوي" class="eid-img">
+      <h3 class="eid-name">أ. مصلح البلوي</h3>
+      <button onclick="showMessage('message3')" class="greeting-btn">عرض الكلمة</button>
+    </div>
+
+    <div class="leader-card" data-aos="zoom-in">
+      <img src="فهد لافي.jpg" alt="أ. فهد لافي العطوي" class="eid-img">
+      <h3 class="eid-name">أ. فهد لافي العطوي</h3>
+      <button onclick="showMessage('message4')" class="greeting-btn">عرض الكلمة</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- نافذة منبثقة للكلمات -->
+<div id="popup" class="greeting-popup" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 9999; align-items: center; justify-content: center;">
+  <div class="popup-content" style="background: #fff; padding: 35px 25px; border-radius: 15px; width: 90%; max-width: 700px; max-height: 85vh; overflow-y: auto; position: relative; text-align: right; font-size: 1.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.3); line-height: 2em;">
+    <span class="close-btn" onclick="closePopup()" style="position: absolute; top: 10px; left: 20px; font-size: 1.8em; cursor: pointer; color: #aaa;">×</span>
+    <p id="popup-message" style="white-space: pre-line;"></p>
+  </div>
+</div>
+
+
+<!-- JavaScript لعرض الكلمات -->
+<script>
+  function showMessage(id) {
+const messages = {
+  message1: `التواصل الداخلي الفعّال هو أحد الركائز الأساسية التي تعتمد عليها جودة الرعاية الصحية التي نقدمها، ونجاح مؤسستنا بشكل عام.
+
+إننا أفرادًا ومؤسسات في منطقة تبوك نتلقى دائمًا دروسًا قيّمة نتعلمها من صاحب السمو الملكي الأمير فهد بن سلطان أمير منطقة تبوك حفظه الله، من خلال تواصل سموه الدائم ودوره الأبوي في بناء علاقات قوية وفعالة مع أبناء ومؤسسات المنطقة، وهو ما نسعى للاقتداء به في مستشفانا.
+
+نحن في مستشفى الملك خالد نؤمن بأهمية توفير قناة اتصال مفتوحة وشفافة بين جميع الأقسام، والفريق الطبي، والموظفين الإداريين، بالإضافة إلى المرضى وذويهم.
+
+لقد أطلقنا هذه المجلة كوسيلة لتعزيز روح الانتماء والتواصل بين جميع أفراد الفريق، حيث نشارك فيها الإنجازات، والتحديات، والأخبار المهمة، بالإضافة إلى تسليط الضوء على قصص النجاح والتميز من داخل مؤسستنا. نحن نؤمن أن بناء بيئة عمل إيجابية وفعالة يعتمد على مشاركة الجميع في صنع القرار، وتبادل الآراء، وتحفيز المبادرات الجديدة التي تساهم في تحسين الأداء وجودة الخدمة المقدمة.
+
+وفي ظل التطورات المستمرة في مجال الرعاية الصحية، نحرص على تدريب وتطوير موظفينا، وتوفير بيئة عمل محفزة تدعم الإبداع والابتكار. فكل خطوة نخطوها نحو تعزيز التواصل الداخلي تضعنا على الطريق الصحيح لتحقيق رؤيتنا في أن نكون من أفضل المستشفيات في المنطقة، وأن نواصل تقديم خدمات صحية متميزة تلبي احتياجات مجتمعنا الكريم.
+
+ختامًا، أود أن أشكر جميع العاملين في المستشفى على تفانيهم وجهودهم المستمرة، وأؤكد أن نجاحنا يعتمد على تواصلنا وتكاتفنا، وأن هذه المجلة هي خطوة مهمة نحو بناء مستقبل أكثر إشراقًا لمستشفانا وللمجتمع الذي نخدمه.
+
+<strong>مدير مستشفى الملك خالد</strong><br>
+<strong>أخوكم طارق بن عبدالرحمن السحلي</strong>`,
+    message2: `في قلب كل مؤسسة ناجحة، هناك نبض لا يُرى… لكنه يُشعر. إنه التواصل الداخلي — الروح الخفية التي تُبقي الفريق حيًا، متماسكًا، متجهًا نحو نفس الهدف.
+
+هنا، في مستشفى الملك خالد، اخترنا ألا نكون مجرد هيكل إداري أو منظومة تشغيلية. اخترنا أن نكون نموذجًا حيًا لقوة التواصل، وصدق الانتماء، ووضوح الرسالة. ولهذا، لم تكن مجلة "التواصل الداخلي" مجرد فكرة؛ بل كانت حاجة ملحّة، وصوتًا لابد أن يُسمع، ومنبرًا يُعبّر عنّا، نحن… الفريق.
+
+نحن نعمل في ميدانٍ لا يحتمل الفوضى، ولا يُسامح في الخطأ. وكل قرار، كل خطوة، كل استجابة عاجلة، تبدأ من معلومة واضحة، وتواصل فعّال، وثقة متبادلة. هذا ما نريد ترسيخه، لا كمفهوم إداري، بل كثقافة راسخة في كل قسم، وفي كل عقل وقلب.
+
+أنا فخور جدًا بانتمائي لهذا المستشفى — لا كمنشأة، بل كفريق. كل فرد فيكم هو حجر أساس، وكل تواصل صادق بيننا هو خطوة أقرب نحو الامتياز. ومن هنا، فإنني أعتبر هذه المجلة إعلانًا صريحًا عن نضج المؤسسة، ونقطة انطلاق نحو مرحلة أكثر نضجًا واحترافية.
+
+طموحنا لا يتوقف. والفرق الحقيقي لا يُصنع بالأوامر، بل بالتفاهم، بالحوار، وبالتواصل الذي يُحرك العزائم لا يُثقلها. ومن يعرفنا، يعلم أننا لا نسير في ظل غيرنا — نحن من نصنع الضوء.
+
+فلتكن هذه المجلة منصةً للحوار، حاضنةً للأفكار، وجسرًا دائمًا بين كل أفراد هذا الكيان.
+
+نحن هنا لنُثبت أن التواصل ليس وسيلة… بل سلاح.
+
+والله ولي التوفيق.
+الدكتور محمد بسام الكعابنة  
+المدير الطبي – مستشفى الملك خالد بتبوك`,
+message3: `لم تعد إدارات التواصل الداخلي بالمؤسسات الحكومية وغير الحكومية بتلك الصورة الخاملة التي كانت عليها قبل سنوات.
+
+أما الآن، ومع انطلاقة رؤية صاحب السمو الملكي الأمير محمد بن سلمان 2030م، أصبح التواصل الداخلي معيارًا أساسيًا لنجاح كل منظمة؛ فنجاحه نجاح لها، وفشله فشل لها.
+
+ونحن هنا منسوبي مستشفى الملك خالد نعي ذلك جيدًا وندرك أنه متى ما وُجد بيننا كزملاء في كيان واحد تواصل داخلي بجودة عالية، سنتشارك كل ما لدينا من منجزات نفخر بها، وفعاليات تجمعنا في أفراحنا، وتقرب بيننا في أحزاننا.
+
+نُصفق لكل من تفوّق وأنجز عمله بجودة وتميز — سواء كان ذلك المنجز لإدارة أو قسم أو موظف — ونزرع من خلاله تنافسًا شريفًا، يتطلع فيه الجميع ليكون متميزًا في قسم مميز.
+
+وما هذه المجلة إلا بداية -بإذن الله- لعملٍ أكثر إبداعًا في قادم الأيام.
+
+وفقنا الله وإياكم إلى ما يحب ويرضى.
+
+<strong>أخوكم / مصلح علي البلوي</strong><br>
+<strong>مدير إدارة الموارد البشرية</strong>`,
+
+message4: `الحمد لله الذي بنعمته تتم الصالحات،<br><br>
+يسرني ويشرفني أن أتقدم بأصدق التهاني والتبريكات إلى جميع منسوبي مستشفى الملك خالد بتبوك بمناسبة حصول المستشفى على اعتماد المجلس السعودي لاعتماد المنشآت الصحية (سباهي)، والذي يُعد تتويجًا لجهود متواصلة وعمل دؤوب من جميع الفرق الطبية والإدارية والفنية.<br><br>
+إن هذا الإنجاز لم يكن ليتحقق لولا توفيق الله أولاً، ثم الالتزام والتعاون والحرص من كافة الزملاء على تطبيق أعلى معايير الجودة وسلامة المرضى، بما يضمن تقديم رعاية صحية آمنة ومتميزة تليق بتطلعات وطننا الغالي وتتماشى مع مستهدفات رؤية المملكة 2030.<br><br>
+نسأل الله أن يكون هذا الاعتماد حافزًا لنا جميعًا لمواصلة التحسين والتطوير، سعيًا لتحقيق التميز المستدام في خدماتنا الصحية، وتعزيز ثقافة الجودة والسلامة في كل ما نقدمه.<br><br>
+<strong>فهد لافي العطوي</strong><br>
+مساعد المدير لإدارة الجودة وسلامة المرضى<br>
+مستشفى الملك خالد بتبوك`
+
+
+    };
+    document.getElementById("popup-message").innerHTML = messages[id];
+    document.getElementById("popup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+</script>
+
+<section class="section" id="suggestion-wall" style="background: linear-gradient(to bottom, #f1f9ff, #bcd4e2); border-radius: 20px; padding: 60px 30px; box-shadow: 0 8px 24px rgba(0,0,0,0.06); max-width: 900px; margin: 80px auto;" data-aos="fade-up" data-aos-duration="1200">
+  <h2 style="text-align: center; color: #1e76bb; font-size: 2.2em; margin-bottom: 25px;" data-aos="zoom-in">حائط التواصل الداخلي</h2>
+  <p style="font-size: 1.2em; line-height: 2em; text-align: center; color: #333; max-width: 750px; margin: 0 auto;" data-aos="fade-up" data-aos-delay="200">
+    يسرنا أن نفتح مساحة حرة لجميع منسوبي مستشفى الملك خالد بتبوك للمشاركة بأفكارهم، اقتراحاتهم، أو حتى رسائلهم الإنسانية ضمن هذه المجلة.<br>
+    مشاركتكم تُسهم في تطوير بيئة العمل وتعزز روح التواصل الداخلي.
+  </p>
+
+  <div style="text-align: center; margin-top: 40px;" data-aos="fade-up" data-aos-delay="400">
+    <a href="https://padlet.com/mmrrzz2015/padlet-qfc6x9vhwjm69g4o" target="_blank"
+      style="display: inline-block; background: #1e76bb; color: white; padding: 14px 30px; border-radius: 40px; font-size: 1.15em; font-weight: bold; text-decoration: none; box-shadow: 0 5px 15px rgba(30, 118, 187, 0.4); transition: all 0.3s ease;">
+      الانتقال إلى الحائط الجداري
+    </a>
+  </div>
+</section>
+
+
+
+<section class="section" id="news">
+  <h2>أبرز الأخبار</h2>
+  <div class="news-grid">
+
+    <!-- خبر 1 -->
+    <div class="news-card" data-aos="zoom-in">
+      <img src="سباهي.png" alt="شهادة سباهي" class="rounded-img">
+      <div class="content">
+        <h3><i class="fas fa-certificate"></i> اعتماد سباهي لمستشفى الملك خالد</h3>
+        <p>في إنجاز يعكس التميز المؤسسي، حصل المستشفى على اعتماد "سباهي" حتى 2028م.
+          <a href="#" class="read-more" onclick="showNewsPopup('popup1')">اقرأ المزيد</a></p>
+      </div>
+    </div>
+
+    <!-- خبر 2 -->
+    <div class="news-card" data-aos="zoom-in">
+      <div style="display: flex; gap: 10px;">
+        <img src="احتفال سباهي1.jpg" alt="احتفال سباهي" style="width: 50%; height: 180px; object-fit: cover;">
+        <img src="احتفال سباهي2.jpg" alt="احتفال سباهي" style="width: 50%; height: 180px; object-fit: cover;">
+      </div>
+      <div class="content">
+        <h3><i class="fas fa-award"></i> احتفال المستشفى باعتماد سباهي</h3>
+        <p>قسم الجودة نظم احتفالًا مصغرًا قدم فيه شهادات شكر للأقسام المتميزة.
+          <a href="#" class="read-more" onclick="showNewsPopup('popup2')">اقرأ المزيد</a></p>
+      </div>
+    </div>
+
+        <!-- خبر: إنقاذ طفل بعد حادث دهس -->
+<div class="news-card" data-aos="zoom-in">
+  <img src="تدخل طبي.jpg" alt="إنقاذ طفل بعد حادث دهس" class="rounded-img">
+  <div class="content">
+    <h3><i class="fas fa-ambulance"></i> تدخل طبي معقد لإنقاذ طفل</h3>
+    <p>فريق طبي في مستشفى الملك خالد ينجح في إنقاذ طفل بعد تعرضه لحادث دهس.
+      <a href="#" class="read-more" onclick="showNewsPopup('popup12')">اقرأ المزيد</a>
+    </p>
+  </div>
+</div>
+
+    <!-- خبر 3 -->
+    <div class="news-card" data-aos="zoom-in">
+      <img src="برنامج نكست ثينك.jpg" alt="جائزة الصحة الإلكترونية" class="rounded-img">
+      <div class="content">
+        <h3><i class="fas fa-laptop-code"></i> تصدُّر في الصحة الإلكترونية</h3>
+        <p>تفعيل Nexthink رفع كفاءة الأجهزة وتعزيز الأمن السيبراني. <a href="#" onclick="showNewsPopup('popup3')">اقرأ المزيد</a></p>
+      </div>
+    </div>
+
+  <!-- خبر 4 -->
+<div class="news-card" data-aos="zoom-in">
+  <img src="الليمفوديما.png" alt="وحدة الليمفوديما" class="rounded-img">
+  <div class="content">
+    <h3><i class="fas fa-hand-holding-medical"></i> وحدة الليمفوديما</h3>
+    <p>
+      استحداث وحدة تخصصية للعلاج التأهيلي لمرضى الوذمة اللمفاوية.
+      <a href="#" onclick="showNewsPopup('popup4')">اقرأ المزيد</a>
+    </p>
+  </div>
+</div>
+
+
+    <!-- خبر 5 -->
+    <div class="news-card" data-aos="zoom-in">
+      <img src="احتفال الموظفين1.jpg" alt="اجتماع التمريض" class="rounded-img">
+      <div class="content">
+        <h3><i class="fas fa-users"></i> تكريم التمريض</h3>
+        <p>إدارة التمريض تكرم الطاقم تقديرًا لعطائهم خلال التحضير لسباهي. <a href="#" onclick="showNewsPopup('popup5')">اقرأ المزيد</a></p>
+      </div>
+    </div>
+
+<!-- خبر 6 -->
+<div class="news-card" data-aos="zoom-in">
+  <img src="تجمع تبوك الصحي.png" alt="زيارة تجمع تبوك الصحي" class="rounded-img">
+  <div class="content">
+    <h3><i class="fas fa-handshake"></i> زيارة تجمع تبوك الصحي</h3>
+    <p>زيارة لتعزيز الشراكات الصحية والمجتمعية في المنطقة. 
+      <a href="#" onclick="showNewsPopup('popup6')">اقرأ المزيد</a>
+    </p>
+  </div>
+</div>
+
+
+    <!-- خبر 7 -->
+    <div class="news-card" data-aos="zoom-in">
+      <div style="display: flex; gap: 10px;">
+        <img src="التمريض1.jpg" alt="الاحتفال بيوم التمريض" style="width: 50%; height: 180px; object-fit: cover;">
+        <img src="التمريض2.jpg" alt="تكريم طاقم التمريض" style="width: 50%; height: 180px; object-fit: cover;">
+      </div>
+      <div class="content">
+        <h3><i class="fas fa-heartbeat"></i> اليوم العالمي للتمريض</h3>
+        <p>احتفاء بالكوادر التمريضية وتكريم جهودهم. <a href="#" onclick="showNewsPopup('popup7')">اقرأ المزيد</a></p>
+      </div>
+    </div>
+
+    <!-- خبر 8 -->
+    <div class="news-card" data-aos="zoom-in">
+      <img src="تكريم سليم البلوي.jpg" alt="تكريم سليم البلوي" class="rounded-img">
+      <div class="content">
+        <h3><i class="fas fa-user-check"></i> تكريم أ. سليم البلوي</h3>
+        <p>تكريم رئيس الفنيين أ. سليم البلوي بمناسبة انتقاله. <a href="#" onclick="showNewsPopup('popup8')">اقرأ المزيد</a></p>
+      </div>
+    </div>
+<!-- خبر 9: فعالية الموارد البشرية -->
+<div class="news-card" data-aos="zoom-in">
+  <div style="display: flex; gap: 10px;">
+    <img src="احتفال الموارد1.jpg" alt="فعالية الموارد البشرية" style="width: 50%; height: 180px; object-fit: cover;">
+    <img src="احتفال الموارد2.jpg" alt="فعالية الموارد البشرية" style="width: 50%; height: 180px; object-fit: cover;">
+  </div>
+  <div class="content">
+    <h3>فعالية اليوم العالمي للموارد البشرية</h3>
+    <p>إدارة الموارد البشرية نظّمت فعالية احتفالية لتكريم جهود فريق العمل. 
+      <a href="#" onclick="showNewsPopup('popup9')">اقرأ المزيد</a>
+    </p>
+  </div>
+</div>
+<!-- خبر جديد: مقابلات الزمالة -->
+<div class="news-card" data-aos="zoom-in">
+  <div style="display: flex; gap: 10px;">
+    <img src="مقابلة1.jpg" alt="مقابلات الزمالة" style="width: 50%; height: 180px; object-fit: cover;">
+    <img src="مقابلة2.jpg" alt="مقابلات الزمالة" style="width: 50%; height: 180px; object-fit: cover;">
+  </div>
+  <div class="content">
+    <h3><i class="fas fa-user-md"></i> مقابلات الزمالة السعودية</h3>
+    <p>تم الانتهاء من مقابلات المرشحين في تخصص الجراحة العامة بتجمع تبوك الصحي.
+      <a href="#" class="read-more" onclick="showNewsPopup('popup10')">اقرأ المزيد</a>
+    </p>
+  </div>
+  </div>
+
+  <!-- بطاقة خبر: تجربة المريض -->
+<div class="news-card" data-aos="zoom-in">
+  <div style="display: flex; gap: 10px;">
+    <img src="تجربة1.jpg" alt="تجربة المريض 1" style="width: 50%; height: 180px; object-fit: cover;">
+    <img src="تجربة2.jpg" alt="تجربة المريض 2" style="width: 50%; height: 180px; object-fit: cover;">
+  </div>
+  <div class="content">
+    <h3><i class="fas fa-heartbeat"></i> مبادرة تجربة المريض</h3>
+    <p>
+      تفعيل مبادرة جديدة لنشر ثقافة الشكر والمقترحات ضمن جهود تحسين تجربة المريض.
+      <a href="#" class="read-more" onclick="showNewsPopup('popup11')">اقرأ المزيد</a>
+    </p>
+    </div>
+    </div>
+
+    <!-- خبر: إنقاذ طفل بعد حادث دهس -->
+<div class="news-card" data-aos="zoom-in">
+  <img src="تدخل طبي.jpg" alt="إنقاذ طفل بعد حادث دهس" class="rounded-img">
+  <div class="content">
+    <h3><i class="fas fa-ambulance"></i> تدخل طبي معقد لإنقاذ طفل</h3>
+    <p>فريق طبي في مستشفى الملك خالد ينجح في إنقاذ طفل بعد تعرضه لحادث دهس.
+      <a href="#" class="read-more" onclick="showNewsPopup('popup12')">اقرأ المزيد</a>
+    </p>
+  </div>
+</div>
+
+<!-- خبر: إنقاذ مريضة تسعينية -->
+<div class="news-card" data-aos="zoom-in">
+  <img src="صورة المستشفى.png" alt="إنقاذ مريضة تسعينية" class="rounded-img">
+  <div class="content">
+    <h3><i class="fas fa-procedures"></i> إنقاذ مريضة تسعينية من بتر</h3>
+    <p>فريق الأوعية الدموية ينقذ مريضة 90 عامًا من بتر الطرف السفلي.
+      <a href="#" class="read-more" onclick="showNewsPopup('popup13')">اقرأ المزيد</a>
+    </p>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+<!--  النووواااافذذذذ -->
+<!-- نافذة 1: اعتماد سباهي -->
+<div class="news-popup" id="popup1">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup1')">&times;</span>
+    <h3>اعتماد سباهي لمستشفى الملك خالد</h3>
+    <p>في إنجاز يعكس التميز المؤسسي والالتزام بمعايير الجودة وسلامة المرضى، حصل مستشفى الملك خالد بتبوك على اعتماد المركز السعودي لاعتماد المنشآت الصحية (سباهي) حتى عام 2028م، تأكيدًا على استيفاء المستشفى لمتطلبات ومعايير الرعاية الصحية الآمنة والمتقدمة.</p>
+  </div>
+</div>
+
+<!-- نافذة 2: احتفال سباهي -->
+<div class="news-popup" id="popup2">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup2')">&times;</span>
+    <h3>احتفال المستشفى باعتماد "سباهي"</h3>
+    <p>بمناسبة الحصول على اعتماد "سباهي"، نظّم قسم إدارة الجودة احتفالًا داخليًا تم فيه تكريم الأقسام المتميزة وتوزيع شهادات شكر وتقدير. شهد الحفل أجواء من الفخر والامتنان بين منسوبي المستشفى.</p>
+  </div>
+</div>
+
+<!-- نافذة 3: الصحة الإلكترونية -->
+<div class="news-popup" id="popup3">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup3')">&times;</span>
+    <h3>مستشفى الملك خالد يتصدّر في الصحة الإلكترونية</h3>
+    <p>حاز المستشفى على المركز الأول في تفعيل برنامج Nexthink ضمن مؤشرات الصحة الإلكترونية بالمنطقة، وذلك بفضل الجهود المبذولة في تطوير الأداء التقني وتعزيز الأمن السيبراني.</p>
+  </div>
+</div>
+
+<!-- نافذة 4: وحدة الليمفوديما -->
+<div class="news-popup" id="popup4">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup4')">&times;</span>
+    <h3>استحداث وحدة الليمفوديما في قسم التأهيل الطبي</h3>
+    <p>تم تدشين وحدة متخصصة لعلاج الوذمة اللمفاوية تهدف إلى تحسين جودة الحياة للمرضى من خلال خطط علاجية فردية وإشراف كوادر طبية مؤهلة.</p>
+  </div>
+</div>
+<!-- نافذة 5: تكريم التمريض -->
+<div class="news-popup" id="popup5">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup5')">&times;</span>
+    <h3>تكريم طاقم التمريض</h3>
+    <p>في أجواء من التقدير، نظّمت إدارة التمريض لقاءً خاصًا لتكريم الكوادر التمريضية نظير جهودهم الفعالة في تحسين جودة الخدمات واستعداداتهم لزيارة "سباهي".</p>
+  </div>
+</div>
+<!-- نافذة 6: زيارة تجمع تبوك الصحي -->
+<div class="news-popup" id="popup6">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup6')">&times;</span>
+    <h3>زيارة من تجمع تبوك الصحي</h3>
+    <p>استقبل المستشفى وفدًا من تجمع تبوك الصحي بهدف تعزيز الشراكات الصحية والتعريف بإنجازات الإدارات المعنية، كما تم بحث فرص التعاون وبرامج التطوع الصحي.</p>
+  </div>
+</div>
+
+
+<!-- نافذة 7: اليوم العالمي للتمريض -->
+<div class="news-popup" id="popup7">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup7')">&times;</span>
+    <h3>إدارة التمريض تحتفل باليوم العالمي للتمريض في مستشفى الملك خالد</h3>
+    <p>
+      احتفلت إدارة التمريض في مستشفى الملك خالد بـ <strong>اليوم العالمي للتمريض</strong> الموافق <strong>12 مايو 2025</strong>، وذلك بحضور سعادة مدير المستشفى <strong>أ. طارق السحلي</strong> ومساعد مدير المستشفى للخدمات الطبية <strong>د. محمد الكعابنة</strong> وعدد من المشرفين الصحيين.
+    </p>
+    <p>
+      وجاءت هذه الفعالية تكريمًا لجهود الكادر التمريضي وتقديرًا لدورهم الإنساني والمهني في رعاية المرضى وتعزيز جودة الخدمات الصحية. وقد تخلل الحفل كلمات شكر وتقدير من إدارة المستشفى، بالإضافة إلى عرض مرئي يسلط الضوء على إنجازات التمريض خلال العام.
+    </p>
+    <p>
+      ويأتي هذا الاحتفال ضمن التزام المستشفى بتعزيز بيئة العمل الإيجابية والاحتفاء بالكوادر الصحية في جميع المناسبات العالمية.
+    </p>
+  </div>
+</div>
+
+<!-- نافذة 8: تكريم أ. سليم البلوي -->
+<div class="news-popup" id="popup8">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup8')">&times;</span>
+    <h3>تكريم أخصائي الأشعة سليم خميس البلوي</h3>
+    <p>كرّم سعادة مدير المستشفى الأستاذ طارق السحلي رئيس الفنيين أخصائي الأشعة سليم خميس البلوي، بمناسبة انتقاله إلى عمله الجديد، تقديرًا لمسيرته الحافلة بالالتزام والمهنية.</p>
+  </div>
+</div>
+
+<!-- 9: فعالية الموارد البشرية -->
+<div class="news-popup" id="popup9" style="display: none;">
+  <div class="popup-content"> <!-- ✅ هنا التعديل -->
+    <span class="close-btn" onclick="closeNewsPopup('popup9')">&times;</span>
+    <h3>فعالية اليوم العالمي للموارد البشرية</h3>
+    <p>
+      نظمت إدارة الموارد البشرية في مستشفى الملك خالد بتبوك فعالية خاصة بمناسبة اليوم العالمي للموارد البشرية، وذلك يوم الخميس الموافق 22/05/2025، بقيادة الأستاذ مصلح البلوي، مدير الإدارة، وبحضور سعادة المدير الطبي الدكتور محمد الكعابنة.
+    </p>
+    <p>
+      تضمنت الفعالية توزيع الهدايا والورود على منسوبي الموارد البشرية وكافة الموظفين، في لفتة رمزية تعكس التقدير لجهودهم المستمرة في تعزيز بيئة العمل.
+    </p>
+    <p>
+      وأكد الأستاذ مصلح البلوي أن الموارد البشرية تمثل القلب النابض لأي منشأة ناجحة، فيما ثمّن الدكتور الكعابنة المبادرة واعتبرها خطوة في الاتجاه الصحيح نحو بيئة عمل محفزة وإيجابية.
+    </p>
+    <p>
+      وتأتي هذه الفعالية ضمن توجهات المستشفى نحو ترسيخ ثقافة التقدير وتحفيز الكوادر البشرية للمضي قدمًا في تطوير الخدمات الصحية.
+    </p>
+  </div>
+</div>
+
+<!-- نافذة 10: مقابلات الزمالة -->
+<div class="news-popup" id="popup10">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup10')">&times;</span>
+    <h3>مقابلات الزمالة السعودية – تخصص الجراحة العامة</h3>
+    <p>
+      تم بحمد الله يوم الخميس الموافق <strong>1 / 5 / 2025</strong> الانتهاء من المقابلات الشخصية للمرشحين في برنامج الزمالة السعودية للتخصصات الصحية – <strong>تخصص الجراحة العامة</strong> – الدفعة الثامنة، وذلك ضمن نطاق تجمع تبوك الصحي.
+    </p>
+    <p>
+      نُبارك لجميع المتقدمين ونتمنى لهم التوفيق والسداد في رحلتهم المهنية القادمة.
+    </p>
+  </div>
+</div>
+<!-- نافذة 11: مبادرة تجربة المريض -->
+<div class="news-popup" id="popup11">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup11')">&times;</span>
+    <h3>مبادرة: “تجربة المريض.. شكر واقتراحات للتحسين”</h3>
+    <p>
+      بحضور مدير مستشفى الملك خالد بتبوك <strong>الأستاذ طارق السحلي</strong>، وعدد من مدراء الأقسام، فعّل قسم تجربة المريض مبادرة جديدة بعنوان:
+      <strong>“تجربة المريض.. شكر واقتراحات للتحسين وليس فقط شكاوى”</strong>، ضمن جهود المستشفى في تعزيز جودة الخدمات الصحية ورفع مستوى التواصل الإيجابي مع المرضى وذويهم.
+    </p>
+    <p>
+      وتهدف المبادرة إلى تغيير الصورة النمطية لتجربة المريض، لتشمل رسائل الشكر والمقترحات التطويرية، إلى جانب الملاحظات والشكاوى، بما يسهم في دعم بيئة العمل وتحفيز الكوادر الصحية.
+    </p>
+    <p>
+      وقد جاءت هذه المبادرة بإشراف مديرة القسم <strong>الأستاذة وعد العنزي</strong>، تأكيدًا على أهمية إشراك المرضى كشركاء فاعلين في تطوير وتحسين الخدمات الصحية المقدمة.
+    </p>
+  </div>
+</div>
+
+<!-- نافذة 12: تدخل طبي لإنقاذ طفل -->
+<div class="news-popup" id="popup12">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup12')">&times;</span>
+    <h3>تدخل طبي معقد استمر أربع ساعات</h3>
+    <p><strong>مستشفى الملك خالد بتبوك يعيد الحياة لطفل دهسته شاحنة</strong></p>
+    <p>
+      تمكن فريق طبي في قسم الأوعية الدموية بمستشفى الملك خالد، التابع لتجمع تبوك الصحي، من إنقاذ حياة طفل يبلغ من العمر 13 عامًا، بعد تعرضه لحادث دهس من قبل شاحنة، حيث وصل إلى قسم الطوارئ وهو في حالة حرجة للغاية نتيجة إصابات متعددة وانخفاض حاد في ضغط الدم.
+    </p>
+    <p>
+      وفور وصوله، بادر الطاقم الطبي بإجراء الإسعافات الأولية والفحوصات اللازمة التي أظهرت وجود كسور في عظام الوجه، وتهتك شديد في الكبد، بالإضافة إلى تمزق في المثانة، وكسر كبير في عظام الحوض، ونزيف حاد في منطقتي البطن والحوض.
+    </p>
+    <p>
+      وعلى الفور، تم نقل الطفل إلى غرفة العمليات، حيث خضع لتدخل جراحي طارئ ومعقد، شارك فيه فريق من جراحي الأوعية الدموية، وجراحة الأطفال، وجراحة المسالك البولية، وذلك من خلال إجراء ربط الشريان النازف في الحوض، وإصلاح المثانة والسيطرة على نزيف الكبد.
+    </p>
+    <p>
+      وأكد الفريق الطبي أن العملية، التي استغرقت أكثر من أربع ساعات، تكللت بالنجاح بفضل الله، وتم نقل الطفل إلى العناية المركزة للأطفال لمتابعة حالته الصحية حتى استقرت، ثم نُقل بعدها إلى القسم الداخلي، وهو الآن يتمتع بصحة جيدة، ولله الحمد.
+    </p>
+    <p>
+      ويأتي هذا الإنجاز ليُجسد كفاءة الطواقم الطبية في مستشفيات تجمع تبوك الصحي، وقدرتها على التعامل مع الحالات الطارئة بكل مهنية واحترافية عالية.
+    </p>
+  </div>
+</div>
+
+<!-- نافذة 13: إنقاذ مريضة تسعينية -->
+<div class="news-popup" id="popup13">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closeNewsPopup('popup13')">&times;</span>
+    <h3>فريق طبي في مستشفى الملك خالد ينقذ مريضة تسعينية من بتر الطرف السفلي</h3>
+    <p>
+      تمكن فريق طبي متخصص في قسم الأوعية الدموية بمستشفى الملك خالد، التابع لتجمع تبوك الصحي، من إنقاذ مريضة تبلغ من العمر 90 عامًا من بتر وشيك للطرف السفلي، بعد تحويل حالتها الطارئة من أحد المستشفيات الطرفية.
+    </p>
+    <p>
+      وأوضح الفريق الطبي أن المريضة كانت تعاني من قصور حاد في الدورة الدموية للطرف السفلي الأيسر نتيجة انسداد حاد في شرايين الحوض والفخذ بسبب جلطات دموية، مما جعل حالتها حرجة وتستدعي تدخلًا عاجلًا.
+    </p>
+    <p>
+      وبحسب الفريق، فقد تم إدخال المريضة مباشرة إلى غرفة العمليات، حيث أُجريت لها عملية دقيقة استغرقت نحو أربع ساعات، شملت استكشاف شرايين الفخذ، واستئصال الجلطات، وإعادة التروية الدموية للساق باستخدام مذیبات الجلطات، وقد تكللت العملية – بفضل الله – بالنجاح.
+    </p>
+    <p>
+      وفي وقت لاحق، خضعت المريضة لقسطرة علاجية لتوسيع الشرايين واستكمال استعادة التروية الدموية بشكل طبيعي، ما أدى إلى تحسن ملحوظ في حالتها.
+    </p>
+    <p>
+      وأكد الفريق الطبي أن المريضة غادرت المستشفى بعد استقرار وضعها الصحي، وهي بحالة جيدة.
+    </p>
+    <p>
+      من جانبها، قدمت إدارة المستشفى شكرها وتقديرها للفريق الطبي، مشيدةً بجهودهم التي تعكس مدى كفاءتهم وتميزهم في أداء مهامهم، وجهوزيتهم العالية للتعامل مع الحالات الطارئة والمعقدة ضمن منظومة تجمع تبوك الصحي.
+    </p>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+<!-- قسم إنجازات مايو -->
+<section class="section" id="may-achievements" style="background: linear-gradient(to bottom, #f7fbff, #e4eff9); padding: 60px 20px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.06);" data-aos="fade-up">
+
+  <h2 style="text-align: center; color: #1e76bb; font-size: 2em; margin-bottom: 25px;">
+    إنجازات شهر مايو لعام 2025
+  </h2>
+
+  <p style="text-align: center; font-size: 1.2em; color: #333; max-width: 800px; margin: 0 auto 50px; line-height: 2em;">
+    أقامت إدارة الشؤون الأكاديمية والتدريب بالمستشفى عددًا من المحاضرات وورش العمل التدريبية خلال شهر مايو بساعات تعليمية بلغ مجموعها <strong>41 ساعة</strong>، واستفاد منها عدد <strong>195 موظفًا</strong> من جميع الفئات (أطباء – تمريض – فنيين – تقنيين).
+  </p>
+
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 40px;">
+    
+    <!-- صورة مائلة 1 -->
+    <div style="transform: rotate(-4deg); overflow: hidden; border-radius: 20px; box-shadow: 0 6px 18px rgba(0,0,0,0.1); max-width: 350px;" data-aos="zoom-in">
+      <img src="انجاز1.jpg" alt="صورة إنجاز 1" style="width: 100%; display: block; object-fit: cover;">
+    </div>
+
+    <!-- صورة مائلة 2 -->
+    <div style="transform: rotate(4deg); overflow: hidden; border-radius: 20px; box-shadow: 0 6px 18px rgba(0,0,0,0.1); max-width: 350px;" data-aos="zoom-in" data-aos-delay="100">
+      <img src="انجاز2.jpg" alt="صورة إنجاز 2" style="width: 100%; display: block; object-fit: cover;">
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- قسم التعازي: لن ننساكم -->
+<section class="section" id="tributes" style="background: linear-gradient(to bottom,#e7f1fb); padding: 60px 20px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.06);" data-aos="fade-up">
+  <h2 style="text-align: center; color: #1e76bb; font-size: 2.2em; margin-bottom: 40px;">لن ننساكم</h2>
+
+  <p style="text-align: center; font-size: 1.2em; color: #444; max-width: 700px; margin: 0 auto 20px;">
+    نستذكر زملاءنا الذين رحلوا، تاركين خلفهم أثرًا طيبًا وذكرى عطرة. نسأل الله لهم الرحمة والمغفرة.
+  </p>
+
+  <p style="text-align: center; font-size: 1.1em; color: #333; max-width: 800px; margin: 0 auto 40px;">
+    ووفاءً لمن وافتهم المنية من منسوبي مستشفى الملك خالد بتبوك، يمكنكم التبرع عنهم عبر منصة إحسان، سائلين الله أن يجعل ذلك في ميزان حسناتهم.
+  </p>
+
+  <div style="text-align: center; margin-bottom: 50px;">
+    <a href="https://dawamalha.sa/campaigns/1748496199" target="_blank" style="background-color: #1e76bb; color: #fff; padding: 12px 25px; border-radius: 8px; font-size: 1.1em; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: background-color 0.3s;">
+      التبرع عبر منصة إحسان
+    </a>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; justify-content: center;">
+
+    <!-- بطاقة: طارق عيد البلوي -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="طارق البلوي.jpg" alt="طارق عيد البلوي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">طارق عيد البلوي</h3>
+      <p style="color: #666;">أخصائي تمريض - مركز السعادة</p>
+    </div>
+
+    <!-- يحيى مجرشي -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="يحيى مجرشي.jpg" alt="يحيى عيسى مجرشي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">يحيى عيسى مجرشي</h3>
+    </div>
+
+    <!-- أشرف مليجي -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="اشرف مليجي.jpg" alt="أشرف مليجي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">د. أشرف مليجي</h3>
+      <p style="color: #666;">استشاري تخدير</p>
+    </div>
+
+    <!-- هامان غرايبه -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="هامان غرايبة.jpg" alt="هامان غرايبه" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">د. هامان غرايبه</h3>
+      <p style="color: #666;">استشاري عيون</p>
+    </div>
+
+    <!-- البقية بصور موحدة -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="رجل.jpg" alt="فيصل ربيع البلوي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">فيصل ربيع البلوي</h3>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="رجل.jpg" alt="ذيب معاش العنزي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">ذيب معاش العنزي</h3>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="عبدالعزيز العطوي.jpg" alt="عبدالعزيز مرزوق العطوي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">عبدالعزيز مرزوق العطوي</h3>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="رجل.jpg" alt="فهد فايز البلوي" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">فهد فايز البلوي</h3>
+    </div>
+
+        <div style="text-align: center;" data-aos="zoom-in">
+      <img src="عثمان الشهري.jpg" alt="عثمان علي الشهري" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;"> عثمان علي الشهري </h3>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="رجل.jpg" alt="عبدالهادي عثمان" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <h3 style="margin-top: 15px; font-size: 1.2em; color: #1e76bb;">د. عبدالهادي عثمان</h3>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="section" id="hr-achievement"
+  style="background: linear-gradient(to bottom, #1e76bb, #135d99); border-radius: 20px; padding: 60px 30px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); margin-top: 60px;">
+  
+  <h2 data-aos="fade-down" style="text-align: center; color: white; font-size: 2.2em; margin-bottom: 40px;"> منجز إداري 📁</h2>
+
+  <div data-aos="fade-up" style="max-width: 900px; margin: auto; font-size: 1.2em; line-height: 2em; color: #fff; text-align: center;">
+    <p>
+      أنجز <strong>قسم الملفات بإدارة الموارد البشرية</strong> بمستشفى الملك خالد بتبوك عملية أرشفة الملفات الوظيفية لجميع منسوبي المستشفى بشكل إلكتروني بالكامل،
+      باستخدام نظام داخلي متطور يلبّي احتياجات الأرشفة السريعة والآمنة.
+    </p>
+
+    <p>
+      هذا الإنجاز ساهم في تسريع الوصول للمستندات، تقليل الورق، وخدمة الموظفين بكفاءة عالية.
+    </p>
+
+    <p>
+      لطلب مستند من ملفك، فقط أرسل رسالة من بريدك الرسمي إلى:<br>
+      <a href="mailto:maalbalwe@moh.gov.sa" style="color: #ffeb99; font-weight: bold; text-decoration: underline;">maalbalwe@moh.gov.sa</a><br>
+      وسيتم تزويدك بالمطلوب خلال وقت وجيز عبر بريدك الإلكتروني.
+    </p>
+  </div>
+
+  <div data-aos="zoom-in" style="margin-top: 50px; text-align: center;">
+    <h3 style="color: #ffeb99; font-size: 1.4em; margin-bottom: 25px;"> شكرًا لأبطال هذا المنجز 🌟:</h3>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px;">
+      <div style="background: rgba(255,255,255,0.1); padding: 20px 30px; border-radius: 15px; color: white; font-size: 1.1em; min-width: 200px;">
+        <strong>مريم البلوي</strong><br><span style="font-size: 0.95em; color: #ffddaa;">مشرفة قسم الملفات</span>
+      </div>
+      <div style="background: rgba(255,255,255,0.1); padding: 20px 30px; border-radius: 15px; color: white; font-size: 1.1em; min-width: 200px;">
+        <strong>هاجر الضاحي</strong>
+      </div>
+      <div style="background: rgba(255,255,255,0.1); padding: 20px 30px; border-radius: 15px; color: white; font-size: 1.1em; min-width: 200px;">
+        <strong>مها العطوي</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="employee-spotlight" style="background: linear-gradient(to bottom, #f6fbff, #eaf3f9); padding: 60px 20px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.06);" data-aos="fade-up">
+  <h2 style="text-align: center; color: #1e76bb; margin-bottom: 40px; font-size: 2em;">الموظفون المتميزون</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; justify-items: center;">
+
+    <!-- بطاقة موظف -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="الحسن موسى.jpg" alt="حسن البنا" class="profile-img">
+      <h3 class="employee-name">أ. حسن البنا</h3>
+      <p style="color: #666;">مستشفى الملك خالد – قسم العمليات</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="عبدالله ربيق.jpg" alt="عبدالله ربيق" class="profile-img">
+      <h3 class="employee-name">أ. عبدالله ربيق</h3>
+      <p style="color: #666;">مستشفى الملك خالد – قسم التعقيم</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="احمد حسين.jpg" alt="أحمد حسين" class="profile-img">
+      <h3 class="employee-name">أ. أحمد حسين</h3>
+      <p style="color: #666;">مستشفى الملك خالد – قسم الطوارئ</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="عبدالرحمن الشهري.jpg" alt="عبدالرحمن الشهري" class="profile-img">
+      <h3 class="employee-name">أ. عبدالرحمن الشهري</h3>
+      <p style="color: #666;">مستشفى الملك خالد – قسم الطوارئ</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="نورة العرجان" class="profile-img">
+      <h3 class="employee-name">نورة محمد العرجان</h3>
+      <p style="color: #666;">مركز صحي المهرجان – فنية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="عذاء عبدالله" class="profile-img">
+      <h3 class="employee-name">عذاء علي عبدالله</h3>
+      <p style="color: #666;">مركز صحي المهرجان – فنية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="عماد القامشي.jpg" alt="عماد القامشي" class="profile-img">
+      <h3 class="employee-name">عماد محمد القامشي</h3>
+      <p style="color: #666;">مركز صحي الرويعيات – أخصائي إدارة</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="نوير الحويطي" class="profile-img">
+      <h3 class="employee-name">نوير عودة الحويطي</h3>
+      <p style="color: #666;">مركز صحي الرويعيات – فنية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="فهد عبدالله البلوي.jpg" alt="فهد البلوي" class="profile-img">
+      <h3 class="employee-name">فهد عبدالله البلوي</h3>
+      <p style="color: #666;">إدارة القطاع – فني تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="ابراهيم الرشيدي.jpg" alt="ابراهيم الرشيدي" class="profile-img">
+      <h3 class="employee-name">ابراهيم عبدالله الرشيدي</h3>
+      <p style="color: #666;">إدارة القطاع – أخصائي تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="ماجد خضران.jpg" alt="ماجد الرزقي" class="profile-img">
+      <h3 class="employee-name">ماجد خضران الرزقي</h3>
+      <p style="color: #666;">إدارة القطاع – أمن صحي</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="فيصل المطيري.jpg" alt="فيصل المطيري" class="profile-img">
+      <h3 class="employee-name">فيصل مشعل المطيري</h3>
+      <p style="color: #666;">AKU – أخصائي تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="هند خليفة" class="profile-img">
+      <h3 class="employee-name">هند خليفة</h3>
+      <p style="color: #666;">ER – أخصائية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="Rajalekshmi" class="profile-img">
+      <h3 class="employee-name">Rajalekshmi</h3>
+      <p style="color: #666;">Pedia – أخصائية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="Myra Juego" class="profile-img">
+      <h3 class="employee-name">Myra Juego</h3>
+      <p style="color: #666;">ER – أخصائية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="سحر مجدي" class="profile-img">
+      <h3 class="employee-name">سحر مجدي عبدالباسط</h3>
+      <p style="color: #666;">FMW – أخصائية تمريض</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="د. نغم الخريصي" class="profile-img">
+      <h3 class="employee-name">د. نغم محمد الخريصي</h3>
+      <p style="color: #666;">مستشفى الملك خالد – طبيب مقيم طب أسرة</p>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="حجاب.jpg" alt="مريم الحويطي" class="profile-img">
+      <h3 class="employee-name">مريم محمد غريب الحويطي</h3>
+      <p style="color: #666;">إدارة الموارد البشرية</p>
+    </div>
+
+      <div style="text-align: center;" data-aos="zoom-in">
+      <img src="علي عيد.jpg" alt="علي الحويطي" class="profile-img">
+      <h3 class="employee-name">علي عيد الحويطي</h3>
+      <p style="color: #666;">مدير ادارة المتابعة </p>
+    </div>
+  </div>
+
+  <!-- رسالة ختامية -->
+  <div style="margin-top: 60px; text-align: center;">
+    <p style="font-size: 1.1em; color: #333; line-height: 2em; max-width: 700px; margin: auto;">
+      شكرًا لجهودكم المتميزة وتفانيكم في تقديم أفضل الخدمات. نفتخر بكم وبعطائكم.
+    </p>
+  </div>
+</section>
+
+
+<section class="section" id="ideal-departments" style="background: linear-gradient(to bottom, #f6fbff, #eaf3f9); padding: 60px 20px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.06);" data-aos="fade-up">
+  <h2 style="text-align: center; color: #1e76bb; margin-bottom: 40px; font-size: 2em;">الأقسام المثالية</h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+
+    <!-- بطاقة -->
+    <div style="text-align: center;" data-aos="zoom-in">
+      <img src="قسم العمليات.jpg" alt="قسم العمليات" style="width: 220px; height: 220px; object-fit: cover; border-radius: 15px; box-shadow: 0 6px 14px rgba(0,0,0,0.12); transition: transform 0.3s ease;">
+      <h3 style="margin-top: 15px; color: #1e76bb;">قسم العمليات</h3>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in" data-aos-delay="100">
+      <img src="قسم التعقيم.jpg" alt="قسم التعقيم" style="width: 220px; height: 220px; object-fit: cover; border-radius: 15px; box-shadow: 0 6px 14px rgba(0,0,0,0.12); transition: transform 0.3s ease;">
+      <h3 style="margin-top: 15px; color: #1e76bb;">قسم التعقيم</h3>
+    </div>
+
+    <div style="text-align: center;" data-aos="zoom-in" data-aos-delay="200">
+      <img src="قسم الطوارئ.jpg" alt="قسم الطوارئ" style="width: 220px; height: 220px; object-fit: cover; border-radius: 15px; box-shadow: 0 6px 14px rgba(0,0,0,0.12); transition: transform 0.3s ease;">
+      <h3 style="margin-top: 15px; color: #1e76bb;">قسم الطوارئ</h3>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="new-employees" style="background: linear-gradient(to bottom, #1e76bb, #104e83); padding: 60px 20px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.1);" data-aos="fade-up">
+  <h2 style="text-align: center; color: white; font-size: 2.2em; margin-bottom: 30px;">نرحب بكم</h2>
+  <p style="text-align: center; color: #d0e8f9; font-size: 1.2em; margin-bottom: 40px;">
+    نُرحب بانضمام زميلاتنا الجدد إلى فريق التمريض بمستشفى الملك خالد، ونتمنى لهن مسيرة مهنية موفقة ومليئة بالعطاء والنجاح.
+  </p>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+    
+    <div style="background: rgba(255,255,255,0.1); color: white; padding: 25px 30px; border-radius: 15px; text-align: center; min-width: 220px; font-size: 1.1em;" data-aos="zoom-in">
+      <strong>شهد علي الشهري</strong><br>
+      <span style="font-size: 0.9em;">أخصائية تمريض</span>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.1); color: white; padding: 25px 30px; border-radius: 15px; text-align: center; min-width: 220px; font-size: 1.1em;" data-aos="zoom-in" data-aos-delay="100">
+      <strong>Nariman Janani Hailidani</strong><br>
+      <span style="font-size: 0.9em;">Staff Nurse</span>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.1); color: white; padding: 25px 30px; border-radius: 15px; text-align: center; min-width: 220px; font-size: 1.1em;" data-aos="zoom-in" data-aos-delay="200">
+      <strong>Marie Joy Enciso Buenaobra</strong><br>
+      <span style="font-size: 0.9em;">Staff Nurse</span>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.1); color: white; padding: 25px 30px; border-radius: 15px; text-align: center; min-width: 220px; font-size: 1.1em;" data-aos="zoom-in" data-aos-delay="300">
+      <strong>Diana Rose Mico</strong><br>
+      <span style="font-size: 0.9em;">Staff Nurse</span>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  </div>
+</section>
+
+<section class="section" id="admin-note" style="background: linear-gradient(to bottom, #fff, #eef5fb); padding: 60px 30px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);" data-aos="fade-up">
+  <h2 style="text-align: center; color: #1e76bb; font-size: 2.2em; margin-bottom: 30px;" data-aos="zoom-in">
+    نافذة إدارية
+  </h2>
+
+  <div style="max-width: 850px; margin: auto; font-size: 1.15em; line-height: 2.2em; color: #2b2b2b; background: #ffffff; padding: 30px 25px; border-radius: 15px; box-shadow: 0 4px 16px rgba(0,0,0,0.05);" data-aos="fade-up" data-aos-delay="200">
+
+    <!-- Accordion container -->
+    <div class="accordion">
+
+      <!-- Item 1 -->
+      <button class="accordion-button" style="width: 100%; text-align: right; padding: 18px 20px; font-weight: bold; color: #1e76bb; border: none; background: #f0f8ff; border-radius: 8px; cursor: pointer; outline: none; margin-bottom: 12px; font-size: 1.1em;">
+        تعليمات مهمة للموظف: الحفاظ على صلاحية شهادات التسجيل وتفعيل البريد الإلكتروني
+      </button>
+      <div class="accordion-content" style="padding: 0 20px 20px 20px; display: none; text-align: right;">
+        <p>لطفًا منك، وحتى لا تتأثر امتيازاتك المالية والإدارية، نأمل الحرص دائمًا على ما يلي:</p>
+        <ul style="margin: 15px 0; padding-right: 20px;">
+          <li>1 - التأكد من <strong>سريان صلاحية شهادات التسجيل والتصنيف</strong> الخاصة بك كممارس صحي من الهيئة السعودية للتخصصات الصحية، ووجود نسخة منها في ملفك الوظيفي.</li>
+          <li>2 - وجود <strong>تقييم أداء وظيفي سنوي</strong> من رئيسك المباشر على نظام "موارد".</li>
+          <li>3 - <strong>تفعيل البريد الإلكتروني الرسمي</strong> الخاص بك ومتابعة ما يردك من خلاله بشكل مستمر، مع حذف الرسائل غير الهامة لتجنّب امتلاء صندوق الوارد.</li>
+        </ul>
+        <p style="font-weight: bold; color: #1e76bb;">مع خالص التقدير،<br>إدارة الموارد البشرية</p>
+      </div>
+
+      <!-- Item 2 -->
+      <button class="accordion-button" style="width: 100%; text-align: right; padding: 18px 20px; font-weight: bold; color: #1e76bb; border: none; background: #f0f8ff; border-radius: 8px; cursor: pointer; outline: none; margin-bottom: 12px; font-size: 1.1em;">
+        توجيهات هامة للمتعاقدين: خطوات وتجهيزات تجديد العقد السنوي عبر برنامج موارد
+      </button>
+      <div class="accordion-content" style="padding: 0 20px 20px 20px; display: none; text-align: right;">
+        <p>احرص على إنهاء إجراءات تجديد عقدك السنوي قبل ثلاثة أشهر من نهايته وذلك بالرفع بمسوغات تجديد العقد عن طريق برنامج موارد وهي كالآتي:</p>
+        <ol style="margin: 15px 0; padding-right: 20px;">
+          <li>صورة الإقامة وجواز السفر.</li>
+          <li>آخر تقييم للأداء الوظيفي.</li>
+          <li>شهادة التسجيل وبطاقة التصنيف من الهيئة السعودية للتخصصات الصحية.</li>
+          <li>وثيقة التأمين الطبي.</li>
+          <li>موافقة جهة العمل على تجديد العقد.</li>
+        </ol>
+        <p style="margin-top: 10px;">وتقبلوا تحياتنا<br><strong>إدارة الموارد البشرية</strong></p>
+      </div>
+
+      <!-- Item 3 -->
+      <button class="accordion-button" style="width: 100%; text-align: right; padding: 18px 20px; font-weight: bold; color: #1e76bb; border: none; background: #f0f8ff; border-radius: 8px; cursor: pointer; outline: none; font-size: 1.1em;">
+        تذكير هام: تقييم الأداء كأداة تطوير ودعم وليس للمحاسبة
+      </button>
+      <div class="accordion-content" style="padding: 0 20px 20px 20px; display: none; text-align: right;">
+        <p>من المهم التذكير بأن تقييم الأداء ليس وسيلة للمحاسبة، بل أداة استراتيجية لتقييم وتحليل الأداء، ودعم الموظف في تحقيق أهدافه. لذا يُنصح بأن يُنظر إليه كفرصة للتطوير والتحسين، وليس كوسيلة للعقوبة أو التقويم السلبي.</p>
+        <p style="margin-top: 10px; font-weight: bold;">قسم تخطيط الموارد البشرية</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  // أكورديون بسيط
+  const accButtons = document.querySelectorAll('.accordion-button');
+  accButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      const isOpen = content.style.display === 'block';
+
+      // إغلاق جميع الأقسام
+      document.querySelectorAll('.accordion-content').forEach(c => c.style.display = 'none');
+
+      if (!isOpen) {
+        content.style.display = 'block';
+      }
+    });
+  });
+</script>
+
+
+<section class="section" id="department-cards" data-aos="fade-up" style="padding: 80px 20px; background: #f7fafd;">
+  <h2 style="text-align: center; color: #325d7d; margin-bottom: 50px;">أداء الأقسام</h2>
+
+  <div class="swiper department-swiper" style="padding-bottom: 50px;">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="قسم الطوارئ.jpg" alt="قسم الطوارئ">
+        <h3>قسم الطوارئ</h3>
+        <p>تم تقديم الخدمات لـ <strong>11394</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="قسم العيادات.jpg" alt="قسم العيادات">
+        <h3>قسم العيادات</h3>
+        <p>تم تقديم الخدمات لـ <strong>13939</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="قسم التنويم.jpg" alt="قسم التنويم">
+        <h3>قسم التنويم</h3>
+        <p>تم تقديم الخدمات لـ <strong>886</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="قسم الاشعة.jpg" alt="قسم الأشعة">
+        <h3>قسم الأشعة</h3>
+        <p>تم تقديم الخدمات لـ <strong>7573</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="قسم المختبر.jpeg" alt="قسم المختبر">
+        <h3>قسم المختبر</h3>
+        <p>تم تقديم الخدمات لـ <strong>5541</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="قسم العلاج الطبيعي.jpeg" alt="قسم العلاج الطبيعي">
+        <h3>قسم العلاج الطبيعي</h3>
+        <p>تم تقديم الخدمات لـ <strong>4350</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="قسم الصيدلية.jpg" alt="قسم الصيدلية">
+        <h3>قسم الصيدلية</h3>
+        <p>تم تقديم الخدمات لـ <strong>7640</strong> من المستفيدين خلال شهر مارس لعام 2025م.</p>
+      </div>
+
+    </div>
+
+    <!-- الأسهم -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+
+
+<section class="section" id="medical-feature">
+  <h2 style="text-align: center; color: #1e76bb;">منجز طبي</h2>
+  <div style="background: white; border-radius: 15px; padding: 30px; text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+    <img src="دوالي الساقين1.jpg" alt="دوالي الساقين" style="width: 100%; max-height: 250px; object-fit: cover; border-radius: 10px; margin-bottom: 20px;">
+    <p style="font-size: 1.1em; line-height: 2em; color: #444;">
+      يُعد <strong>مستشفى الملك خالد بتبوك</strong> من أوائل المنشآت التي تقدم علاج دوالي الساقين بدون تدخل جراحي، باستخدام أحدث التقنيات مثل التردد الحراري والحقن الدوائي بالرغوة.
+    </p>
+    <button onclick="showMedicalPopup()" style="background-color: #1e76bb; color: white; padding: 10px 20px; border-radius: 30px; border: none; font-weight: bold; cursor: pointer; box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+      اقرأ المزيد
+    </button>
+  </div>
+</section>
+<div id="medicalPopup" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 9999; justify-content: center; align-items: center;">
+  <div style="background: white; padding: 30px; border-radius: 15px; max-width: 800px; width: 90%; max-height: 90vh; overflow-y: auto; position: relative; text-align: right; line-height: 2em; font-size: 1.05em; color: #333;">
+    <span onclick="closeMedicalPopup()" style="position: absolute; top: 10px; left: 20px; font-size: 1.5em; cursor: pointer; color: #888;">&times;</span>
+    <h3 style="color: #1e76bb;">علاج دوالي الساقين في مستشفى الملك خالد</h3>
+    <img src="دوالي الساقين2.jpg" alt="دوالي الساقين" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px; margin: 15px 0;">
+    <p><strong>ما هي دوالي الساقين؟</strong><br>
+      توسع واحتقان في أوردة الساق تظهر كخطوط متعرجة ناتجة عن ضعف صمامات الأوردة.
+    </p>
+    <p><strong>الأعراض:</strong></p>
+    <ul>
+      <li>أوردة بارزة ومتعرجة.</li>
+      <li>ثقل أو ألم في الساقين خاصة بعد الوقوف.</li>
+      <li>تورم الكاحلين أو القدمين.</li>
+      <li>حكة أو تغير لون الجلد.</li>
+    </ul>
+    <p><strong>طرق العلاج المتاحة:</strong></p>
+    <h4>🔹 القسطرة بالتردد الحراري</h4>
+    <ul>
+      <li>إغلاق الوريد بدقة عبر التردد الحراري.</li>
+      <li>يُجرى تحت تخدير موضعي خلال 30-60 دقيقة.</li>
+    </ul>
+    <h4>🔹 الحقن الدوائي بالرغوة (Sclerotherapy)</h4>
+    <ul>
+      <li>حقن مادة طبية تسبب انغلاق الوريد.</li>
+      <li>فعالة وآمنة، ولا تتطلب جراحة أو تنويم.</li>
+    </ul>
+    <p><strong>نصائح بعد العلاج:</strong></p>
+    <ul>
+      <li>ارتداء الجوارب الضاغطة.</li>
+      <li>المشي يوميًا.</li>
+      <li>تجنّب الجلوس أو الوقوف لفترات طويلة.</li>
+    </ul>
+    <p><strong>الختام:</strong><br>
+      تقنيات علاج الدوالي المتوفرة في مستشفانا تُحقق راحة وسرعة تعافي للمريض، دون تدخل جراحي.
+    </p>
+  </div>
+</div>
+<script>
+  function showMedicalPopup() {
+    document.getElementById("medicalPopup").style.display = "flex";
+  }
+
+  function closeMedicalPopup() {
+    document.getElementById("medicalPopup").style.display = "none";
+  }
+</script>
+
+
+<section class="section" id="digital-tip" style="text-align: center;" data-aos="fade-up">
+  <h2 style="color: #1e76bb; font-size: 2em; margin-bottom: 20px;"> ركن التقنية </h2>
+  <p style="font-size: 1.1em; color: #444; margin-bottom: 30px;">نصيحة تقنية مفيدة لك هذا الشهر... اضغط للعرض!</p>
+
+  <button onclick="showDigitalTip()" style="background-color: #1e76bb; color: white; padding: 12px 28px; font-size: 1.1em; border-radius: 30px; border: none; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.15); cursor: pointer; transition: background-color 0.3s;">
+    عرض المعلومة 📬
+  </button>
+</section>
+<div id="digitalTipPopup" class="news-popup" style="display: none;">
+  <div class="popup-content" style="text-align: right; direction: rtl;">
+    <span class="close-btn" onclick="closeDigitalTip()">&times;</span>
+    <h3 style="color: #1e76bb;">📧 نصيحة هذا العدد: وفّر وقتك في Outlook!</h3>
+    <p style="font-size: 1.1em; line-height: 2em; color: #333;">
+      هل تصلك رسائل كثيرة فيها مهام؟ استخدم ميزة <strong>"Flag + Reminders"</strong> في Outlook. فقط اضغط على أيقونة العلم بجانب الرسالة، واختر موعد التذكير!
+    </p>
+    <ul style="font-size: 1em; color: #555; padding-right: 20px;">
+      <li>💡 تذكير تلقائي في وقت محدد</li>
+      <li>✅ تنظيم بريدك بدون نسيان مهام</li>
+      <li>📲 تظهر في تطبيق Outlook على الجوال أيضًا</li>
+    </ul>
+    <p style="font-style: italic; color: #888;">في كل عدد… راح نشاركك بأداة أو اختصار تقني يسهل يومك 👨‍💻</p>
+  </div>
+</div>
+<script>
+  function showDigitalTip() {
+    document.getElementById("digitalTipPopup").style.display = "flex";
+  }
+
+  function closeDigitalTip() {
+    document.getElementById("digitalTipPopup").style.display = "none";
+  }
+</script>
+
+
+
+<section class="section" id="magazine-feedback" style="background: linear-gradient(to right, #e3f2fd, #fefefe); border-radius: 25px; padding: 70px 30px; margin-top: 80px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);" data-aos="fade-up">
+  <h2 style="text-align: center; color: #1e76bb; font-size: 2.3em; margin-bottom: 20px;" data-aos="zoom-in" data-aos-delay="100">📝 شاركنا رأيك</h2>
+  
+  <p style="font-size: 1.2em; color: #333; text-align: center; line-height: 2em; max-width: 750px; margin: 0 auto 30px;" data-aos="fade-up" data-aos-delay="200">
+    رأيك في هذا العدد الأول من مجلة التواصل الداخلي يهمّنا جدًا!<br>
+    ساهم بتقييمك وملاحظاتك وساعدنا في تقديم محتوى أفضل في الأعداد القادمة.
+  </p>
+  
+  <div style="text-align: center;" data-aos="fade-up" data-aos-delay="300">
+    <a href="https://forms.gle/x5GAqzbZPd7d3koA7" target="_blank"
+       style="background-color: #1e76bb; color: white; padding: 14px 30px; font-size: 1.15em; font-weight: bold; border-radius: 40px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: background-color 0.3s;">
+      الانتقال إلى الاستبيان
+    </a>
+  </div>
+</section>
+
+
+
+  <footer>
+    &copy; تجمع تبوك الصحي
+  <br><br>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000
+  });
+
+  var swiper = new Swiper('.department-swiper', {
+    loop: false,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        centeredSlides: false
+      },
+      1024: {
+        slidesPerView: 3,
+        centeredSlides: false
+      }
+    }
+  });
+</script>
+<script>
+  function showNewsPopup(id) {
+    const popup = document.getElementById(id);
+    if (popup) popup.style.display = 'flex';
+  }
+
+  function closeNewsPopup(id) {
+    const popup = document.getElementById(id);
+    if (popup) popup.style.display = 'none';
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+
+</body>
+</html>
